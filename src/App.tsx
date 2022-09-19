@@ -43,10 +43,13 @@ function App(): JSX.Element {
 	const handleAddTodo = (e: FormEvent, txt: string): void => {
 		e.preventDefault();
 
-		setTodoItems([
-			...todoItems,
-			{ id: Date.now(), text: txt, completed: false },
-		]);
+		const formattedTxt: string = txt.trim();
+
+		formattedTxt &&
+			setTodoItems([
+				...todoItems,
+				{ id: Date.now(), text: formattedTxt, completed: false },
+			]);
 	};
 
 	const handleToggleComplete = (id: number): void => {

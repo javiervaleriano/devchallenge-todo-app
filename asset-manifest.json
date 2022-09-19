@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/devchallenge-todo-app/static/css/main.e85f057d.css",
-    "main.js": "/devchallenge-todo-app/static/js/main.058914df.js",
+    "main.js": "/devchallenge-todo-app/static/js/main.0a57aeff.js",
     "static/js/787.24cac0e2.chunk.js": "/devchallenge-todo-app/static/js/787.24cac0e2.chunk.js",
     "index.html": "/devchallenge-todo-app/index.html",
     "main.e85f057d.css.map": "/devchallenge-todo-app/static/css/main.e85f057d.css.map",
-    "main.058914df.js.map": "/devchallenge-todo-app/static/js/main.058914df.js.map",
+    "main.0a57aeff.js.map": "/devchallenge-todo-app/static/js/main.0a57aeff.js.map",
     "787.24cac0e2.chunk.js.map": "/devchallenge-todo-app/static/js/787.24cac0e2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e85f057d.css",
-    "static/js/main.058914df.js"
+    "static/js/main.0a57aeff.js"
   ]
 }

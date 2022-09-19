@@ -1,38 +1,59 @@
-.App {
+header {
+  margin-bottom: 20px;
+  padding-top: 24px;
+  border-bottom: 1px solid var(--gray-1);
+}
+
+h1 {
   text-align: center;
+  margin: 0 0 30px;
+  font-size: 2.25rem;
+  font-weight: var(--bold);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav-tabs {
+  margin-top: 14px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.tabs {
+  font-size: 0.875rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-evenly;
+  font-weight: var(--semi-bold);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.tab {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  cursor: pointer;
+  padding: 0 10px;
+  color: var(--header-text);
+  transition: all 0.4s;
 }
 
-.App-link {
-  color: #61dafb;
+.tab span {
+  display: inline-block;
+  height: 4px;
+  width: 0;
+  margin-top: 10px;
+
+  position: relative;
+  left: 50%;
+
+  border-radius: 4px 4px 0 0;
+  background-color: var(--blue);
+
+  transition: all 0.4s;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.tab span.visible {
+  width: 150%;
+  left: calc(0px - 24%);
+}
+
+.tab:hover {
+  color: var(--black);
 }

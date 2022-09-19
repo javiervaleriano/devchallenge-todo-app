@@ -1,0 +1,24 @@
+.todo-list {
+  list-style: none;
+  margin-top: 30px;
+  padding: 0;
+}
+
+.wrapper-clear-tasks-btn {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 40px;
+}
+
+.clear-tasks-btn {
+  border: none;
+  outline: none;
+  padding: 15px 20px;
+  font-size: 0.75rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: var(--montserrat);
+  font-weight: var(--semi-bold);
+  color: var(--white);
+  background-color: var(--red);
+}
